@@ -1,0 +1,86 @@
+
+body {
+    font-family: 'Arimo';
+}
+
+/* Flex-box - for vertical align*/
+/* Header with background-image*/
+
+header.d-flex{
+    background-image: url("/img/2873013_long_3.jpg");
+    background-size: cover;
+    height: 370px;
+}
+
+#text-header {
+    margin-left: 15rem;
+} 
+
+.block-recipe{
+    margin-left: 0px;
+}
+
+
+/* Buttons*/
+
+.ingredients-button, .card-button {
+    font-family: 'Arimo';
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    padding: 5px;
+}
+
+.ingredients-button {
+    margin: 5px;
+}
+
+.ingredients-button:hover {
+    cursor: pointer;
+}
+
+.modal-button, .btn-dark:not(:disabled):not(.disabled).active:focus, .btn-dark:not(:disabled):not(.disabled):active:focus, .show>.btn-dark.dropdown-toggle:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.selected-ingredient, a.card-button:hover, .modal-button:hover {
+    background-color: #0d7339;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-img {
+    width: 100%;
+    margin-bottom: 1rem;
+} 
+
+.footer{
+    border-top: none;
+}
+
+/* h5 custom*/
+/* Found ingredient - Modal*/
+
+h5, .found-ingredient {
+    color: #0d7339;
+}
+
+
+.found-ingredient:after{
+    content: '\00a0\00a0 \2713';
+}
+
+.linkViewedRecipe:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
