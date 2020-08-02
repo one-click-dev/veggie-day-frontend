@@ -2,7 +2,7 @@
 
 let selectedIngredients = [];
 let ingredients = [];
-const ApiBasePath = 'http://127.0.0.1:6535';
+const ApiBasePath = 'https://recipe.one-click.dev/api';
 
 
 // FUNKTIONS
